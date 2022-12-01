@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+}
+.container{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: auto;
+}
+/* Start Header */
+
+.header {
+    background-color: #a0702854;
+}
+.float-left {
+    float: left;
+    padding: 15px 0;
+}
+.logo img {
+    width: 180px;
+}
+
+.float-right {
+    float: right;
+    padding: 15px 0;
+}
+.float-right ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+.float-right ul li a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+    font-size: 18px;
+}
+.clear {
+    clear: both;
+}
+/* Start Landing */
+.landing {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.landing .content {
+    margin: auto;
+    /* background-color: brown; */
+    width: 730px;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    padding: 10px;
+}
+.landing .content p {
+    font-size: 22px;
+}
+.landing .content .main-p {
+    font-size: 24px;
+    line-height: 1.9em;
+}
+.landing .content h1 {
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    font-family: 'Noto Serif KR', serif;
+    font-size: 50;
+    font-weight: 900;
+}
+.landing .content button {
+    width: 130px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.landing .content .learn {
+    background-color: #8e7754;
+}
+.landing .content .contact {
+    background-color: transparent;
+    border-color: white;
+}
+.landing .content button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+/* Start Section 1 */
+.section1 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.section1 .image {
+    width: 50%;
+    float: left;
+}
+.section1 .image img {
+    width: 95%;
+}
+.section1-content{
+    width: 46%;
+    float: right;
+}
+
+.section1-content .text h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.section1-content .text p{
+    color: #777;
+    line-height: 2em;
+    
+}
+.section1-content .icons {
+    margin-top: 30px;
+}
+.section1-content .icons ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.section1-content .icons ul li{
+    color: #777;
+    margin-bottom: 10px;
+}
+.section1-content .icons ul  li img{
+    float: left;
+    margin-right: 10px;
+}
+.section1-content .icons ul  li p{
+   float: left;
+   margin-top: 20px;
+}
+/* Start Our Location */
+.our-location{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8f8f8;
+}
+.our-location .location .text{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+.our-location .location .text .text-content{
+    width: 90%;
+}
+
+.our-location .location .text h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.our-location .location .text p{
+    color: #777;
+    line-height: 2em;
+}
+.our-location .location .image{
+    float: right;
+    width: 50%;
+}
+.our-location .image img {
+    width: 95%;
+    float: right;
+}
+/* Start Baking */
+.baking{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.baking .text{
+    text-align: center;
+}
+.baking .text h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.baking .text p {
+    color: #777;
+    line-height: 2em;
+}
+.baking .card{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.baking .card img{
+    width: 90%;
+}
+.baking .card h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.baking .card p {
+    width: 90%;
+    color: #777;
+    line-height: 2em;
+}
+/* Start Contact Information */
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8f8f8;
+}
+.contact .information-content {
+    width: 46%;
+    float: left;
+}
+.contact .information-content h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contact .information-content p{
+    color: #777;
+    line-height: 2em;
+}
+
+.contact .information-content .contact-icons {
+    margin-top: 30px;
+}
+.contact .information-content .contact-icons ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.contact .information-content .contact-icons ul li{
+    color: #777;
+    margin-bottom: 10px;
+}
+.contact .information-content .contact-icons ul  li img{
+    float: left;
+    margin-right: 10px;
+}
+.contact .information-content .contact-icons ul  li p{
+   float: left;
+   margin-top: 6px;
+}
+
+.contact .image{
+    float: right;
+    width: 50%;
+}
+.contact .image img {
+    width: 90%;
+    float: right;
+}
+/* Start Section2 */
+.section2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #403d38;
+    color: white;
+}
+.section2 .section2-content{
+    width: 25%;
+    float: left;
+}
+.section2 .section2-content h4{
+    font-weight: 300;
+}
+.section2 .section2-content .pad{
+    padding-left: 40px;
+}
+.section2 .section2-content p{
+    color: #777;
+    line-height: 2em;
+}
+.section2 .section2-content ul{
+    list-style: none;
+}
+.section2 .section2-content li{
+    color: #777;
+    line-height: 2em;
+    border-bottom: 1px solid #777;
+}
+.section2 .section2-content li a{
+    text-decoration: none;
+    color: #777;
+}
+.section2 .section2-content .bord{
+   border-bottom: none;
+}
+/* Start Footer */
+.footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer .image img {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+}
